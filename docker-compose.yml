@@ -178,7 +178,7 @@ services:
       SPRING_MAIL_PASSWORD: brhvnheetmnisftm
 
 
-      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://service-registry:8761/eurekaw
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://service-registry:8761/eureka
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8084/actuator/health"]
       interval: 15s
